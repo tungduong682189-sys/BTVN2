@@ -18,6 +18,6 @@ public class Student {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
-        System.out.println("Gpa: " + gpa);
+        System.out.println("GPA: " + gpa);
     }
 }

@@ -21,7 +21,7 @@ public class Main {
                 if(n<=0) throw new Exception();
                 check = false;
             } catch (Exception e) {
-                System.out.println("Please enter number > 0");
+                System.out.println("Please enter number greater than 0");
                 check = true;
             }
         } while (check);
@@ -56,7 +56,7 @@ public class Main {
                     if(gpa<0 || gpa > 10) throw new Exception();
                     check2 = false;
                 } catch (Exception e) {
-                    System.out.println("Error! Please enter age again");
+                    System.out.println("Error! Please enter gpa again");
                     check2 = true;
             }
             } while (check2);
